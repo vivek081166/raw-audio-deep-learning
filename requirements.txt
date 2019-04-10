@@ -1,0 +1,6 @@
+Keras==2.2.4
+librosa==0.6.3
+numpy==1.16.2
+matplotlib==3.0.3
+scipy==1.2.1
+tensorflow==1.13.1
