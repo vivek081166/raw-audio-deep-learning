@@ -1,4 +1,4 @@
-# Deep Convolutional Networks For Raw audio files
+# Deep Learning for raw audio files
 Keras (Tensorflow) implementation of the paper: https://arxiv.org/pdf/1610.00087.pdf
 
 
