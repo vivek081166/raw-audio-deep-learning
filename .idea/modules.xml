@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/raw-audio-deep-learning.iml" filepath="$PROJECT_DIR$/.idea/raw-audio-deep-learning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/very-deep-convnets-raw-waveforms.iml" filepath="$PROJECT_DIR$/.idea/very-deep-convnets-raw-waveforms.iml" />
     </modules>
   </component>
 </project>
