@@ -9,13 +9,8 @@ from keras.layers.normalization import BatchNormalization
 from keras.models import Sequential
 import numpy as np
 import pickle
-import os
 from glob import glob
-
-AUDIO_LENGTH = 10000
-OUTPUT_DIR = './output'
-OUTPUT_DIR_TRAIN = os.path.join(OUTPUT_DIR, 'train')
-OUTPUT_DIR_TEST = os.path.join(OUTPUT_DIR, 'test')
+from constants import *
 
 
 def m5(num_classes=5):

@@ -1,16 +1,9 @@
-import os
 import pickle
 from glob import iglob
 import numpy as np
 import librosa
 from shutil import rmtree
-
-DATA_AUDIO_DIR = './audio'
-TARGET_SR = 8000
-OUTPUT_DIR = './output'
-OUTPUT_DIR_TRAIN = os.path.join(OUTPUT_DIR, 'train')
-OUTPUT_DIR_TEST = os.path.join(OUTPUT_DIR, 'test')
-AUDIO_LENGTH = 10000
+from constants import *
 
 
 def mkdir_p(path):
@@ -82,7 +75,7 @@ def convert_data():
             print('CUT New length =', len(audio_buf))
 
         output_folder = OUTPUT_DIR_TRAIN
-        if i // 50 == 0:
+        if i % 50 == 0:
             output_folder = OUTPUT_DIR_TEST
 
         output_filename = os.path.join(output_folder, str(i) + '.pkl')
