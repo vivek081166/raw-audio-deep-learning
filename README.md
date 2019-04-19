@@ -1,6 +1,8 @@
 # Deep Learning for raw audio files
 Keras (Tensorflow) implementation of the paper: https://arxiv.org/pdf/1610.00087.pdf
 
+Follow this Blog : https://medium.com/in-pursuit-of-artificial-intelligence/deep-learning-using-raw-audio-files-66d5e7bf4cca
+
 
 ## How to re-run the experiment?
 
